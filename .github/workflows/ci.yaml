@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          progress: false
+          show-progress: false
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
